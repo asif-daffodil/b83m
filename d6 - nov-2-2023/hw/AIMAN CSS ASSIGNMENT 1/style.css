@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.japan{
+    border: 8px solid rgb(255, 0, 0);
+    width: max-content;
+    margin: auto;
+    margin-top: 80px;
+    padding: 0px;
+    outline: 5px solid rgb(0, 114, 0);
+    border-radius: 6px;
+    box-shadow: 0px 0px 100px #005207 inset, 0px 0px 50px #ff0000;
+}
+
+.jingping{
+    border: 8px solid rgb(0, 167, 0);
+    width: max-content;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    outline: 5px dashed rgb(0, 167, 0);
+    border-radius: 6px;
+    box-shadow: 0px 0px 40px #0066ff inset, 0px 0px 50px #ff0000;
+    color: rgb(255, 0, 0);
+    font-family: sans-serif;
+    -webkit-text-stroke: 4px #00a508;
+    text-shadow: 0px 0px 35px #0059ff;
+}
+/* COMMENT TEST */

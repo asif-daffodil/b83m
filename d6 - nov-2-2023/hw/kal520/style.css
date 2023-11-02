@@ -1,0 +1,10 @@
+.border-design {
+    /* Border style */
+    border: 10px solid #000; /* 2px width solid black border */
+    border-radius: 10px; /* Rounded corners (adjust as needed) */
+    padding: 20px; /* Add some padding inside the border */
+    background-color: #f0f0f0; /* Background color (adjust as needed) */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    /* You can add more styling properties as per your design preferences */
+  }
+  

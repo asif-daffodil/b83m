@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homework{
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px;
+    width: max-content;
+    border: 10px solid red;
+    outline: 10px dashed #0032FF;
+    border-radius: 8px;
+    font-size: 70px;
+    letter-spacing: 10px;
+    font-variant: small-caps;
+    font-family: helvetica;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 7px 5px 13px 0px black, 5px 5px 20px 0px black inset;
+    color: #ae00ff;
+    -webkit-text-stroke: 3px rgb(7, 8, 8);
+    text-shadow: 10px 10px 15px #14161d;  
+} 
+
+.extra{
+    background-color: MediumSeaGreen; width: 1500px;  color: rgb(0, 0, 0); margin-left: auto; margin-right: auto; text-align: center;
+    font-size: 30px;
+}
+
+.useborder{ width: 310px; height: 130px; padding: 12px; border: 6px solid #ae00ff; margin: auto; border-radius: 10px; text-align: center;
+
+}
+
+.sir{font-size: 66px;
+    letter-spacing: 6px;
+    font-variant: small-caps;
+    font-family: Arial;
+    -webkit-text-stroke: 3px dodgerblue;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px black;
+    font-style: italic;
+    padding: 20px;
+    width: max-content;
+    margin: auto;
+    border: 6px solid dodgerblue;
+    outline: 6px dashed dodgerblue;
+    border-radius: 6px;
+    margin-top: 60px;
+    box-shadow: 0 0 18px black, 0 0 18px black inset;
+}

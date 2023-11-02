@@ -1,0 +1,21 @@
+
+.FALAH{
+    font-size: 66px;
+    letter-spacing: 6px;
+    font-variant: small-caps;
+    font-family: Arial;
+    -webkit-text-stroke: 3px dodgerblue;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px black;
+    font-style: italic;
+    padding: 20px;
+    width: max-content;
+    margin: auto;
+    border: 6px solid dodgerblue;
+    outline: 6px dashed dodgerblue;
+    border-radius: 6px;
+    margin-top: 60px;
+    box-shadow: 0 0 18px black, 0 0 18px black inset;
+}
+

@@ -1,0 +1,19 @@
+.Text{
+    font-size:77px;
+    background-color:bisque;
+    -webkit-text-stroke:2px rgb(8, 8, 8);
+    color:rgba(33, 216, 20, 0.542);
+    font-style:italic;
+    /* ░P░A░R░V░E░S░ ░M░O░S░H░A░R░U░F░ */
+    text-shadow:3px 0px rgba(20, 157, 141, 0.957);
+    padding:30px;
+    width:max-content;    /*P̶̙̙̫̌̇͊̊̏͌̽̓͘̕A̷̛͕̮͙͛̀̔͐̕R̷̼̹͙̅̐̂̀͠V̶̢̧̩͇̪͔͎͉͔̈́̿̽̀̓̀̿͒̂̒Ĕ̷̤̀̒͗̾Ş̴̫̫̰͎͚͛̀̅̔̚*/
+    margin:auto;
+    border:12px solid rgba(33, 140, 14, 0.778);
+    background-size: auto;
+    outline: 6px dashed rgba(12, 150, 40, 0.939);
+    border-radius:100PX;
+    margin-top:290px;
+    box-shadow:20px rgb(12, 110, 59);
+    align-items: center;
+}

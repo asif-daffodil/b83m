@@ -1,0 +1,23 @@
+.pk {
+    font-size: 66px;
+    letter-spacing: 6px;
+    font-variant: small-caps;
+    font-family: Arial;
+    -webkit-text-stroke: 3px green;
+    color: greenyellow;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px #74c69d;
+    font-style: italic;
+    padding: 35px;
+    width: max-content;
+    margin: auto;
+    border: 8px solid green;
+    outline: 8px dashed green;
+    border-radius: 300px;
+    margin-top: 250px;
+    box-shadow: 0 0 18px #74c69d, 0 0 18px #74c69d;
+}
+
+body {
+    background-color: #1b4332;
+}

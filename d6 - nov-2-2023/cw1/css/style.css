@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ifetkhar12 {
+    color: rgb(233, 248, 250);
+    font-weight: bolder;
+    width: 500px;
+    height: 200px;
+    background: #0866FF;
+    display: inline-block;
+}
+
+.ab {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    line-height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px/50%;
+    background: #000;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 20px;
+}
+
+.ab:hover {
+    background: #00f;
+}
+
+.mostafa {
+    width: 600px;
+    height: 400px;
+    margin: 20px;
+    background: green;
+    display: grid;
+    place-items: center;
+}
+
+.vuiyan{
+    width: 400px;
+    height: 200px;
+    background: orange;
+    clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+    display: flex;
+}
+
+.bindu {
+    width: 100px;
+    height: 100px;
+    background: #00f;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: rotate(45deg);
+}
+
+.shindu {
+    width: 200px;
+    height: 200px;
+    border: 20px solid #fff;
+    border-radius: 50%;
+}
+
+.messi {
+    width: 600px;
+    height: 400px;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+    font-size: 92px;
+    display: grid;
+    place-items: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 2px #000;
+    border-width: 10px;
+    border-style: solid;
+    border-image: url("../images/background.jpg");
+    border-image-slice: 1;
+}

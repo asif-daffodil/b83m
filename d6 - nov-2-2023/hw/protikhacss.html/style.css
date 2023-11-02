@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nistha {
+
+    background-color: black;
+    height: 100vh;
+    display: flex;
+
+}
+
+.protikha {
+    border: 6px solid rgb(129, 18, 149);
+    width: max-content;
+    margin: auto;
+    padding: 20px;
+
+    outline: 8px dashed rgb(63, 9, 9);
+
+    box-shadow: 10px 10px 20px inset , 10px 10px 50px;
+
+    border-radius: 6px;
+
+    color: rgb(68, 30, 175);
+
+    font-size: 40px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    word-spacing: 10px;
+
+    text-transform: 6px;
+
+    text-shadow: 3px 3px 3px #eee8e8;
+
+    font-family: arial;
+
+    -webkit-text-stroke: 3px;
+
+    font-style: italic;
+}

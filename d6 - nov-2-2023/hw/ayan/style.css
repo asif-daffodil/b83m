@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Bangladesh{
+    border: 10px solid rgb(88, 32, 218);
+    width: max-content;
+    margin: 200px 100px 100px 600px;
+    padding: 10px;
+    outline: 5px  dashed rgb(208, 51, 23);
+    border-radius: 200px;
+    box-shadow: 20px 10px 10px  gray;
+    color: blue;
+    font-size: bold;
+    font-family: ;
+    font-weight: 50px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-transform: unset;
+    text-shadow: 5px 5px 5px green;
+    
+
+}

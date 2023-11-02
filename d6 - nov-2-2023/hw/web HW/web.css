@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mujahid{
+
+    border: 5px solid aqua;
+    width: max-content;
+    margin: 40px;
+    padding: 20px;
+    outline: 5px dashed aqua;
+    border-radius 5px ;
+    box-shadow: 0px 0px 20px rgb(223, 19, 179) inset, 0px 0px 15px black;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(255, 239, 11);
+    font-family: Arial;
+    -webkit-text-stroke: 1px rgb(29, 238, 1);
+
+
+    }
+
+
