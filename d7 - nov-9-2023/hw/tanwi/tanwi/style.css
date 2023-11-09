@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top right, #351717, pink, #351717);
+    min-height: 100vh;
+}
+
+.main {
+    width: max-content;
+    height: max-content;
+    background: url("photo6.jpg");
+    font-size: calc(100vw / 12);
+    font-weight: bolder;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-variant: small-caps;
+    -webkit-text-stroke: 1px pink;
+    font-style: italic;
+    margin: 20px auto;
+    border-width: 12px;
+    border-style: solid;
+    border-image: url("photo6.jpg") 12 round;
+    border-radius: 20px;
+    padding: 20px;
+    clip-path: polygon(0px 12px, 12px 12px, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, calc(100% - 0px) 12px, calc(100% - 0px) calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) calc(100% - 0px), 12px calc(100% - 0px), 12px calc(100% - 12px), 0px calc(100% - 12px));
+}

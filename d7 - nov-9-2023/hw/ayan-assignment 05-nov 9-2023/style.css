@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a{
+    color: rgb(222, 209, 145);
+    background:url("./photo-1526547541286-73a7aaa08f2a\ \(1\).avif");
+    font-size: 200px;
+    font-weight: 400px;
+    width: max-content;
+    text-align: center;
+    margin: 200px 200px 200px 300px;
+    border: 50px solid black;
+    -webkit-text-stroke: 3px solid black;
+    border-image: url("photo-1526547541286-73a7aaa08f2a (1).avif");
+    border-image-slice: 1%;
+    text-transform: capitalize;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip:text;
+    display: -webkit-flex;
+}
+.ab{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    clip-path: polygon(0% 50%,50% 0%,50% 50%,0% 50%);
+}
+.abc{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    clip-path:polygon(0% 0%,50% 50%,50% 50%,0% 50%);
+}
+.abcd{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    clip-path:polygon(0% 0%,50% 0%,0% 50%);
+}
+.abcde{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    clip-path: polygon(0% 0%,50% 0%,50% 50%);
+}

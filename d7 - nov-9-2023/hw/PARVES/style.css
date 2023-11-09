@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(to top right, rgb(9, 8, 93), #8d99bc, rgb(9, 8, 93));
+    min-height: 100lvb;
+}
+
+.main {
+    width: max-content;
+    height: max-content;
+    background: aqua url("./wp12126555.jpg");
+    border-image:100 round url("./wp12126555.jpg");
+    font-size: 1000%;
+    font-weight: bolder;
+    color: transparent;
+    -webkit-background-clip: text;
+    /*
+
+          𝒫𝒶𝓇𝓋𝑒𝓈 𝑀𝑜𝓈𝒽𝒶𝓇𝓊𝒻 
+
+    */
+    -webkit-text-stroke: 1px #8d99bc;
+    font-style: Bold;
+    margin: 10% auto;
+    padding: 1%;
+    border-width: 15px;
+    border-radius: 1px;
+    border-style: ridge;
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top left, #3d1c1c, #000000, #3f1b1b);
+    min-height: 100vh;
+}
+
+.main {
+    width: max-content;
+    height: max-content;
+    background: url("photo6.jpg");
+    font-size: calc(100vw / 12);
+    font-weight: bolder;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-variant: small-caps;
+    -webkit-text-stroke: 1px darkred;
+    font-style: italic;
+    margin: 20px auto;
+    border-width: 12px;
+    border-style: solid;
+    border-image: url("photo6.jpg") 12 round;
+    border-radius: 20px;
+    padding: 20px;
+    clip-path: polygon(0px 12px, 12px 12px, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, calc(100% - 0px) 12px, calc(100% - 0px) calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) calc(100% - 0px), 12px calc(100% - 0px), 12px calc(100% - 12px), 0px calc(100% - 12px));
+}
+
+.iron {
+    width: max-content;
+    height: max-content;
+    background: url("iron\ man\ 2.png");
+    font-size: calc(100vw / 12);
+    font-weight: bolder;
+    color: transparent;
+    -webkit-background-clip: text;
+    margin: 20px auto;
+    border-width: 20px;
+    border-style: solid;
+    border-image: url ("iron/man/2.png");
+}

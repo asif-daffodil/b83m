@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#000, #fff, #000);
+    min-height: 1000px;
+}
+
+.anon{
+    background: url("../images/matrix2.png");
+    height: max-content;
+    width: max-content;
+    font-size: calc(100px);
+    font-weight: bolder;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-variant: small-caps;
+    border-image: url("../images/matrix2.png") 40 round;
+    margin: 20px auto;
+    border-width: 12px;
+    border-style: solid;
+    padding: 30px;
+}

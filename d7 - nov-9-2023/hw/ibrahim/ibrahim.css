@@ -1,0 +1,28 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.BOX
+{
+    background: url(ibrahim.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+h1
+{
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 5px 10px rgba(0,0,0,1);
+    mix-blend-mode: overlay;
+    box-shadow:0 5px 10px rgba(0,0,0,1) ;
+    background: rgba(0,0,0,2);
+}

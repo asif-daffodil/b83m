@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ayan {
+    width: 200px;
+    height: 200px;
+    background: darkred;
+    position: relative;
+    z-index: 5;
+}
+
+.arnob {
+    width: 200px;
+    height: 200px;
+    background: darkblue;
+    position: relative;
+    left: 30px;
+    top: -20px;
+    z-index: 10;
+}
+
+.iftekhar {
+    width: 200px;
+    height: 200px;
+    background: url("https://source.unsplash.com/random/200x200?hill");
+    margin: auto;
+    position: relative;
+}
+
+.vuiyan {
+    background: purple;
+    width: max-content;
+    border-radius: 20px/50%;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    padding: 0 20px;
+    transform: translateX(-50%);
+}
+
+.vuiyan::before {
+    content: "Mr. ";
+}
+
+.vuiyan::after {
+    content: " Vuiyan";
+}
+
+.iftekhar:hover {
+    background: url("https://source.unsplash.com/random/200x200?sea");
+}
+
+.iftekhar:hover .vuiyan::before {
+    content: "Mrs. ";
+}
+
+.iftekhar:hover .vuiyan::after {
+    content: " Iftekhar";
+}
+
+.hf {
+    width: 817px;
+    height: 317px;
+    background: url("../images/background.jpg");
+    margin: 60px auto;
+    position: relative;
+    border: 6px solid #000;
+    border-bottom-width: 0px;
+}
+
+.hf::before {
+    content: attr(data-v);
+    position: absolute;
+    bottom: -60px;
+    left: -6px;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    border: 6px solid #000;
+    border-top-width: 0px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.hf:hover::before{
+    content: "Family Distroyer Vuiyan"; 
+    font-size: 20px;
+    letter-spacing: 3px;
+}

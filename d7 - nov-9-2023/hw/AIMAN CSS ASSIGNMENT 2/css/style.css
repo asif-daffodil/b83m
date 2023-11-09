@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-image: linear-gradient(to right, rgba(255, 0, 0, 0.288), rgba(240, 116, 0, 0.575));
+    min-height: 100vh;
+}
+
+.messi{
+    width: max-content;
+    height: max-content;
+    background: url("../images/Sun.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 200px;
+    font-weight: bolder;
+    margin: 20px auto;
+    text-transform: uppercase;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 5px rgb(238, 0, 0);
+    text-decoration: underline overline #ff000046;
+    clip-path: polygon(0px 30px, 30px 30px, 30px 0px, calc(100% - 30px) 0px,  calc(100% - 30px) 30px, calc(100% - 0px) 30px, calc(100% - 0px) calc(100% - 30px), calc(100% - 30px) calc(100% - 30px), calc(100% - 30px) calc(100% - 0px), 30px calc(100% - 0px), 30px calc(100% - 30px), 0px calc(100% - 30px));
+    border-width: 30px;
+    border-style: solid;
+    border-image: url("../images/Sun.jpg") 12 round;
+    border-radius: 5px;
+    padding: 50px;
+}
