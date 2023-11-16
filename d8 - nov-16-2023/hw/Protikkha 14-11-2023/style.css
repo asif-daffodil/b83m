@@ -1,0 +1,77 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+ .background{
+    /* background: url(./finally.jpg); */
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('./finally.jpg'); 
+     /* backdrop-filter: blur(30px); */
+     /* -webkit-background-composite: cover;
+     -webkit-backdrop-filter: blur(40px); */
+   /* background-color: rgb(200, 221, 221) 100%; */
+   background-size: cover ;
+   width: 100%;
+   height: 100vh;
+   display: inline-flex;
+  
+}
+
+
+.green {
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    background: #006a4e;
+    position: relative;
+    box-shadow: inset  0 0 10px rgba(0, 0, 0, 0.847);
+}
+.green:hover {
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    background: #ffffff;
+    position: relative;
+
+}
+
+.red {
+
+    height: 100px;
+    width: 100px;
+    top: 38px;
+    bottom:38px ;
+    left: 50px;
+    right: 50px;
+    align-items: center;
+    background: #f42a41;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: inset  0 0 10px rgba(0, 0, 0, 0.847);
+
+}
+
+.green::before{
+content:"Bangladesh";
+position: absolute;
+bottom: -40px;
+left: 0%;
+width: 100%;
+line-height: 30px;
+text-align: center;
+font-size: 26px;
+letter-spacing: 6px;
+text-transform: uppercase;
+}
+
+
+
+
+.green:hover::before{
+content:"japan";
+
+}
+
+
+

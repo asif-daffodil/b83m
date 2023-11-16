@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(rgb(255,255,255,0.6), rgb(255,255,255,0.6)), url("http://source.unsplash.com/random?dog") center/cover no-repeat fixed;
+}
+
+.anonna {
+    width: 640px;
+    height: 360px;
+    background: url(../Image/bd.jpg);
+    position: relative;
+    border: 6px solid black;
+    border-bottom-width: 0px;
+}
+
+.anonna::before {
+    content: "BANGLADESH";
+    position: absolute;
+    bottom: -60px;
+    left: -6px;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    border: 6px solid black;
+    border-top-width: 0px;
+    font-size: 30px;
+}
+
+.anonna:hover {
+    width: 640px;
+    height: 360px; 
+    background: url(../Image/it.jpg);
+}
+.anonna:hover::before {
+    content: "ITALY";
+}

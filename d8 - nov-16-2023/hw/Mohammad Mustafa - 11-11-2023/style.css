@@ -1,0 +1,69 @@
+* {
+    margin: auto;
+    padding: 200px;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url(./images/bangladesh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ban {
+    margin: auto;
+    padding: 0;
+    background: #006a4e;
+    height: 300px;
+    width: 600px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgb(10, 29, 10);
+}
+
+.banglaseshtext {
+    margin: auto;
+    padding: 0;
+    background: #affff2;
+    border: solid 5px #2ac5f4;
+    border-radius: 10px;
+    height: 50px;
+    width: 400px;
+    font-size: 29px;
+    text-align: center;
+}
+
+.ban:hover {
+    margin: auto;
+    padding: 0;
+    background: #ffffff;
+    height: 300px;
+    width: 600px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.ban2 {
+    padding: 10px;
+    background: #f42a41;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    right: 200px;
+    top: 40px;
+    position: absolute;
+    box-shadow: inset 0 0 10px rgb(10, 29, 10);
+}
+
+.ban2:hover {
+    padding: 10px;
+    background: #f42a41;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    right: 200px;
+    top: 40px;
+    position: absolute;
+}
+

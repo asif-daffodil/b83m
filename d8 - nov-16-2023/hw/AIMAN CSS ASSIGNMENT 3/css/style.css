@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background: url("../images/Gaza.jpeg");
+}
+
+.test1{
+    width: 665px;
+    height: 392px;
+    background: url("../images/Israel.png");
+    margin: 10% auto;
+    position: relative;
+    border: 6px solid #000;
+    border-radius: 10px;
+    border-bottom-width: 0px;
+    box-shadow: 0 0 18px black, 0 0 18px rgb(67, 129, 199) inset;
+}
+
+.test1:hover{
+    background: url("../images/Real\ Israel.png");
+    box-shadow: 0 0 18px black, 0 0 18px rgb(255, 0, 0) inset;
+}
+
+.test1::before {
+    content: attr(summon);
+    position: absolute;
+    bottom: -60px;
+    left: -6px;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    color: #5cb0ff;
+    border: 6px solid #000;
+    border-radius: 10px;
+    border-top-width: 0px;
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow: 0 0 18px black, 0 0 18px rgb(67, 129, 199) inset;
+}
+
+.test1:hover::before{
+    content: "Real Israel";
+    font-size: 36px;
+    letter-spacing: 3px;
+    color: #ff0000;
+    box-shadow: 0 0 18px black, 0 0 18px rgb(255, 0, 0) inset;
+}

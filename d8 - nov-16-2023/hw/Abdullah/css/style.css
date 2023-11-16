@@ -1,0 +1,70 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    
+    .main {
+        width: 100%;
+        height: 100vh;
+        background: url(../img/photo3.jpg) no-repeat center/cover;
+    }
+    
+    .blur {
+        width: 100%;
+        height: 100%;
+        background: rgba(241, 125, 125, 0.6);
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    
+    .green {
+        margin: auto;
+        width: 300px;
+        height: 200px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-image: url(../img/photo4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-box-shadow: 0 0 10px#fd0c0c inset;
+        box-shadow: 0 0 10px #e00000 inset;
+        position: relative;
+        border: 3px solid #e20707;
+        -webkit-border-redius: 6px 6px 0px 0px;
+        border-radius: 6px 6px 0px 0px;
+    }
+    
+    .green::before {
+        content: "Iron man";
+        position: absolute;
+        bottom: -33px;
+        left: -3px;
+        width: 100%;
+        line-height: 30px;
+        text-align: center;
+        font-family: "lobstar", cursive;
+        font-size: 30px;
+        border: 3px solid #ff0000;
+        border-top-width: 0;
+    }
+    
+    .green:hover {
+        background-image: url(../img/photo5.jpg );
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .green:hover::before {
+        content: "Thor";
+    }

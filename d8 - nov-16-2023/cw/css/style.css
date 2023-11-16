@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.joy-bangla {
+    width: 100%;
+    min-height: 100vh;
+    background: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.joy-bangla > div {
+    width: 300px;
+    height: 200px;
+}
+
+.joy-bangla > div:nth-child(2) {
+    background: green !important;
+}
+
+.joy-bangla > div:nth-child(odd) {
+    background: yellow;
+}
+
+.joy-bangla > div:nth-child(even) {
+    background: hotpink;
+}
+
+.joy-bangla > div:first-child {
+    background: blue;
+}
+
+.joy-bangla > div:last-child {
+    background: blue;
+}
+

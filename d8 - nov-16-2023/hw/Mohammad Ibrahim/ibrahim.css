@@ -1,0 +1,40 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+.bdim{
+    background-image: url(WhatsApp\ Image\ 2023-10-15\ at\ 01.09.50_04001457.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.bangladesh{
+    background: green;
+    height: 450px;
+    width: 750px;
+    position: relative;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-bottom-width: 0;
+    
+}
+
+.flag{    
+    background: red;  
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    margin-top: -375px;
+    position: relative;
+}
+.bangladesh:hover {
+    background: white;
+}
+.BD {
+    width: 100PX;
+    position: absolute;
+    top: -100px;
+
+}

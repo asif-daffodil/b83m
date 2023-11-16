@@ -1,0 +1,43 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+.background{
+    background: url(./60.jpg);
+    background-color: aquamarine 20%;
+    background-size: cover;
+}
+.ifterkhar{
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    background: #666;
+    position: relative;
+    box-shadow: inset 0 0 10px rebeccapurple(0,0,0,0.847);
+
+}
+.ifterkhar:hover{
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    background:#ffff;
+    position: relative;
+
+}
+.ayon{
+    height: 100px;
+    width: 100px;
+    top: 38px;
+    bottom: 38px;
+    left: 50px;
+    right: 50px;
+    align-items: center;
+    background: #f42;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.847);
+}
+
+
+

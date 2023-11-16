@@ -1,0 +1,81 @@
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.Think_Different
+
+{
+    width: 100%;
+    height: 100vh;
+    background: url("https://source.unsplash.com/random")center/cover
+}
+
+.Me😎
+
+{
+    width: 100%;
+    height: 100%;
+    display: inline-flex
+}
+
+.Relationship💌
+
+{
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    display: inline-flex;
+    background: green;
+    position: relative;
+                                                                            /*
+                                                                            
+                                                                            PARVES MOSHARUF
+                                                                            
+                                                                            */                                            
+    border: 2px solid #000;
+    -webkit-border-radius: 6px 6px 0px 0px;
+    border-radius: 6px 6px 0px 0px
+}
+
+.Relationship💌::before
+
+{
+    content: "BANGLADESH";
+    background-color: gray;
+    position: absolute;
+    bottom: -33px;
+    left: -2px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    border: 2px solid #000;
+}
+
+.Relationship💌:hover
+
+{
+    background: #fdfcfc
+}
+
+.Relationship💌:hover::before
+
+{
+    content: "JAPAN"
+}
+
+
+.👊🏻👊🏻👊🏻👊🏻
+
+{
+    width: 130px;
+    height: 130px;
+    background: red;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: auto
+}
