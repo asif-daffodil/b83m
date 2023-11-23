@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b{
+    height: 100px;
+    width: 100%;
+    background:green;
+}
+.c{
+    height: 100px;
+    width: 100%;
+    background:black;   
+}
+.d{
+    height: 100px;
+    width: 100%;
+    background:blue;
+}
+.a{
+    height: 100vh;
+    width: 100%;
+    background: aqua        ;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.a>div{
+    height: 500px;
+    width: 300px;
+    background:white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display:inline-block;
+    
+}
+.a>div:nth-child(1)>div{
+    height: 150px;
+    width: 100%;
+    background: red;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.a>div:nth-child(1)>div:nth-child(2){
+    height:200px;
+    width: 100%;
+    background:white;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+.a>div:nth-child(1)>div:nth-child(3){
+    height: 40px;
+    width: 200px;
+    background:red;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.a>div:nth-child(2)>div:nth-child(1){
+    height: 150px;
+    width: 100%;
+    background: red;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.a>div:nth-child(2)>div:nth-child(2){
+    height: 200px;
+    width: 100%;
+    background: white;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    align-items: center; 
+}
+.a>div:nth-child(2)>div:nth-child(3){
+    height: 40px;
+    width: 200px;
+    background: red;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.a>div:nth-child(3)>div:nth-child(1){
+    height: 150px;
+    width: 100%;
+    background: red;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.a>div:nth-child(3)>div:nth-child(2){
+    height: 200px;
+    width: 100%;
+    background: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+     
+}
+.a>div:nth-child(3)>div:nth-child(3){
+    height: 40px;
+    width: 200px;
+    background: red;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.a>div:nth-child(4)>div:nth-child(1){
+    height: 150px;
+    width: 100%;
+    background: red;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+.a>div:nth-child(4)>div:nth-child(2){
+    height: 200px;
+    width: 100%;
+    background: white;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.a>div:nth-child(4)>div:nth-child(3){
+    height: 40px;
+    width: 200px;
+    background: red;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.div{
+    height: 100px;
+    width: 100%;
+    background: black;
+}

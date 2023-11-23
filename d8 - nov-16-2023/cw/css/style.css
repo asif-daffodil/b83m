@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'vuiyan mia';
+    src: url('../fonts/DancingScript-VariableFont_wght.ttf');
+}
+
+
 .joy-bangla {
     width: 100%;
     min-height: 100vh;
@@ -17,6 +23,11 @@
 .joy-bangla > div {
     width: 300px;
     height: 200px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'vuiyan mia';
 }
 
 .joy-bangla > div:nth-child(2) {

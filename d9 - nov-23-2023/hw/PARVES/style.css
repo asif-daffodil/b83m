@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+
+    
+}
+body {
+    background: gray;
+}
+.Name {
+    width: 100%;
+    height: 100%;
+    padding: auto;
+    text-align: center;
+    font-size: 500%;
+    color: aliceblue;
+    background-color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.Introduction {
+    width: 100%;
+    height: 100%;
+    padding: auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    font-size: 500%;
+    background-color: black;
+    
+
+}
+.Dip {
+    width: 200px;
+    height: 130px;
+    background: black;
+    /* background-color: aliceblue÷; */
+    color: aliceblue;
+    position: relative;
+    left: 5%;
+    top: 20px;
+    z-index: 5;
+    text-align: center;
+    font-size: 50px;
+    /* font-display: center; */
+}
+/* .div{
+    box-shadow: 10px 10px 5px lightblue inset;
+} */
+.Good_Boy {
+    width: 200px;
+    height: 230px;
+    background: rgb(179, 125, 125);
+    position: relative;
+    left: 5%;
+    top: 20px;
+    text-align: center;
+    z-index: 5;
+}
+.Ratul {
+    width: 200px;
+    height: 130px;
+    background: black;
+    /* background-color: aliceblue÷; */
+    color: aliceblue;
+    position: relative;
+    left: 43%;
+    top: 20px;
+    z-index: 5;
+    text-align: center;
+    font-size: 50px;
+}
+.Very_Very_Bad_Boy {
+    width: 200px;
+    height: 230px;
+    background: rgb(179, 125, 125);
+    position: relative;
+    left: 43%;
+    top: 20px;
+    z-index: 5;
+    text-align: center;
+    position: center;
+}
+.Mujahid {
+    width: 200px;
+    height: 130px;
+    background: black;
+    color: aliceblue;
+    position: relative;
+    left: 80%;
+    top: 20px;
+    z-index: 5;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.Hocker {
+    width: 200px;
+    height: 230px;
+    background: rgb(179, 125, 125);
+    position: relative;
+    left: 80%;
+    top: 20px;
+    z-index: 5;
+    text-align: center;
+    position: right;
+    
+}
+.buttom {
+    width: 100%;
+    height: 40px;
+    background: green;
+    position: relative;
+    /* left: 5%; */
+    top: 20px;
+    text-align: center;
+    z-index: 5;
+}
+
+.kacha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kacha > div {
+    margin: 10px;
+}

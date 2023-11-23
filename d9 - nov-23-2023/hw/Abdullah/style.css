@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.main-div .box {
+    justify-content: center;
+}
+
+.top-box {
+    background-color: green;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    padding: 30px 0px;
+}
+
+.middle-box {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 30px 0px;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 50px 10px;
+}
+
+.box-1 {
+    position: relative;
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid #222;
+}
+
+.top {
+    padding: 100px;
+    background-color: orangered;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.middle {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.middle p {
+    font-size: 20px;
+}
+
+.bottom {
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: ;
+    position: relative;
+}
+
+.bottom button {
+    background-color: orangered;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+}
+
+.bottom-box {
+    background-color: green;
+    height: 80px;
+}
+
+.bottom button ::before {
+    content: ;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: blue;
+    top: 0;
+    left: 0;
+}
+
+.bottom button ::after {
+    content: ;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: blue;
+    top: 0;
+    right: 0;
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.joy-bangla{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(0, 98, 179) , rgb(0, 172, 77));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.joy-bangla > div {
+    width: 300px;
+    height: 200px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.joy-bangla > div:nth-child(2){
+    background: green !important;
+}
+
+.joy-bangla > div:nth-child(odd){
+    background: yellow;
+}
+
+.joy-bangla > div:nth-child(even){
+    background: hotpink;
+}
+
+.joy-bangla > div:first-child{
+    background: blue;
+}
+
+.joy-bangla > div:last-child{
+    background: blue;
+}
+
+.container{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 20%;
+    background: #fff;
+    border: 3px solid #3f99ff;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.card-header{
+    text-align: center;
+    padding: 50px 10px;
+    background-image: linear-gradient(to right, rgb(0, 98, 179) , rgb(0, 172, 77));
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-body{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.card-body .btn{
+    display: block;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(0, 98, 179) , rgb(0, 172, 77));
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
