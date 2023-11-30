@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url(../images/Red_triangle.png), auto;
+}
+
+
+.thikache{
+    width: 100%;
+    height: 20vh;
+    padding: 19px;
+    display: grid;
+    grid-gap: 19px;
+    grid-template-areas: 
+    "area1 area2 area3 area4" 
+    "area1 area2 area3 area4"
+    "area1 area2 area3 area4"
+    "area1 area6 area3 area8"
+    "area1 area6 area3 area8"
+    "area5 area6 area7 area8"
+    "area5 area10 area7 area12"
+    "area5 area10 area7 area12" 
+    "area9 area10 area11 area12"
+    "area9 area10 area11 area12"
+    "area9 area10 area11 area12"
+    "area13 area14 area15 area15"
+    "area13 area14 area15 area15"
+    "area13 area14 area15 area15"
+}
+
+.thikache > div {
+    border: 1px solid #000;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 10px rgba(49, 179, 255, 0.783);
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+
+.thikache > div > img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 6px;
+    padding: 6px;
+    object-fit: fill;
+}
+
+.thikache > div > p{
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.thikache > div > button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: #333;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.thikache > div:first-child{
+    grid-area: area1;
+    grid-row: span 3;
+}
+
+.thikache > div:nth-child(2){
+    grid-area: area2;
+}
+
+.thikache > div:nth-child(3){
+    grid-area: area3;
+}
+
+.thikache > div:nth-child(4){
+    grid-area: area4;
+}
+
+.thikache > div:nth-child(5){
+    grid-area: area5;
+    grid-row: span 4;
+}
+
+.thikache > div:nth-child(6){
+    grid-area: area6;
+}
+
+.thikache > div:nth-child(7){
+    grid-area: area7;
+}
+
+.thikache > div:nth-child(8){
+    grid-area: area8;
+}
+
+.thikache > div:nth-child(9){
+    grid-area: area9;
+}
+
+.thikache > div:nth-child(10){
+    grid-area: area10;
+}
+
+.thikache > div:nth-child(11){
+    grid-area: area11;
+    grid-row: span 2;
+}
+
+.thikache > div:nth-child(12){
+    grid-area: area12;
+}
+
+.thikache > div:nth-child(13){
+    grid-area: area13;
+    grid-row: span 5;
+}
+
+.thikache > div:nth-child(14){
+    grid-area: area14;
+    grid-row: span 4;
+}
+
+.thikache > div:last-child{
+    grid-area: area15;
+}
+
+.thikache > div:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}

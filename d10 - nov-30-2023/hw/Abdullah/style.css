@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4d0000;
+}
+
+.top-box {
+    background-color: rgb(34, 1, 1);
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+    padding: 15px 0px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    grid-gap: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.main>div {
+    place-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    margin: 8px;
+}
+
+.main>div>img {
+    width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.main>div:hover {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.main>div>p {
+    text-align: center;
+    padding: 20px;
+}
+
+.fade-in-image {
+    animation: fadeIn 10s;
+    -webkit-animation: fadeIn 10s;
+    -moz-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 2;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 2;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 2;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 2;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 2;
+    }
+}
+
+.horizontal {
+    grid-column: span 2;
+}
+
+.vertical {
+    grid-row: span 1;
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
+}

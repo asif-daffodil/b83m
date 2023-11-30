@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url(../cursorr.png), auto;
+}
+.main { 
+    
+    display: grid;
+    grid-template-columns: repeat( 3, 2fr);
+    padding: 20px;
+    grid-gap: 20px;
+    
+}
+ .main > div{
+   
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 10px rgb(0,0,0,0.5);  
+    border-radius: 6; 
+    border-bottom: 20px;
+
+ }
+
+
+.main > div > img {
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 6px;
+    padding: 6px;
+
+}
+.main > div > p {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+.main > div > button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}

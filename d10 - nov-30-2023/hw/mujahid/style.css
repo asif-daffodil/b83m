@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url("./mdmdmdmd.png"), auto;
+     
+}
+
+.mujahid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 20px;
+
+}
+
+.mujahid>div>img {
+
+    border: 3px solid rgb(56, 3, 248);
+    border-radius: 10px;
+    padding: 6px;
+    width: 350px;
+
+}
+
+.mujahid>div {
+
+    border: 1px solid rgb(245, 8, 8);
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    box-shadow: 10px;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+
+.mujahid>div>p {
+
+    text-align: center;
+    padding: 20px;
+   
+
+}
