@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to bottom left, #ff9966, #ff5e62);
+    transition: 0.5s;
+    color: #fff;
+    text-shadow: 1px 1px 1px #00f;
+    font-size: 24px;
+    display: grid;
+    place-items: center;
+    margin: 60px;
+    position: relative;
+}
+
+.main:hover {   
+    transform: translate(50%, 50%) rotateZ(45deg) scale(0.9) skew(10deg, 10deg);
+}
+
+.main::before {
+    content: "NEW MARKET";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 9px 26px;
+    color: #000;
+    border-radius: 20px/50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+}

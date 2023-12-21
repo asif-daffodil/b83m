@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$parvez: #f1c40f;
+$stroke: #333;
+
+.bhuiyan {
+    color: $parvez;
+    font-size: 33px;
+    -webkit-text-stroke: 1px $stroke;
+    font-weight: 900;
+    >.mostafa {
+        @extend .bhuiyan;
+    }
+}

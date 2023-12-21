@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$commonBg: teal;
+$smallFontSize: 14px;
+
+@mixin ayan ($w:100px, $h:100px) {
+    width: $w;
+    height: $h;
+    background: $commonBg;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+.mostafa {
+    @include ayan(100px, 200px);
+}
+
+.protikkha {
+    @include ayan(200px, 300px);
+}
+
+.bisshoPremik {
+    @include ayan();
+}
+
+.bapparaj{
+    @extend .mostafa;
+    background: hotpink;
+}
