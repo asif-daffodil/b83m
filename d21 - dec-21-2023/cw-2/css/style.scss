@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 750px;
+    margin: 20px auto;
+    list-style: none;
+    display: flex;
+    background: #000;
+    >li{
+        width: 100%;
+        position: relative;
+        >a{
+            text-decoration: none;
+            text-align: center;
+            color: #fff;
+            display: block;
+            line-height: 50px;
+        }
+        &:hover{
+            background: teal;
+        }
+        &::before {
+            content: "";
+            width: 100%;
+            height: 6px;
+            background: tomato;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
+}
