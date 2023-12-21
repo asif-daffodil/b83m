@@ -10,10 +10,10 @@
     list-style: none;
     display: flex;
     background: #000;
-    >li{
+    li{
         width: 100%;
         position: relative;
-        >a{
+        a{
             text-decoration: none;
             text-align: center;
             color: #fff;
@@ -21,16 +21,35 @@
             line-height: 50px;
         }
         &:hover{
-            background: teal;
+           &::before{
+                width: 100%;
+           }
+           >.snav{
+            top: 100%;
+            visibility: visible;
+           }
         }
         &::before {
             content: "";
-            width: 100%;
+            width: 0%;
             height: 6px;
             background: tomato;
             position: absolute;
             bottom: 0;
+            left: 50%;
+            transition: 0.5s;
+            transform: translateX(-50%);
+        }
+        .snav{
+            width: 100%;
+            list-style: none;
+            position: absolute;
+            top: 0%;
             left: 0;
+            background: #000;
+            visibility: hidden;
+            transition: 0.5s;
+            z-index: -10;
         }
     }
 }
