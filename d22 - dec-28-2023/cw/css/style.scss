@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    background: #000;
+    position: relative;
+    li{
+        width: 100%;
+        a{
+            text-decoration: none;
+            color: #fff;
+            line-height: 50px;
+            display: block;
+            >span{
+                color: red;
+                font-size: 24px;
+            }
+        }
+        >div{
+            width: 1000px;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            padding: 20px;
+            background: #000;
+            display: flex;
+            transition: 0.5s;
+            >ul{
+                width: 100%;
+                list-style: none;
+                >li{
+                   >a{
+                    text-align: left;
+                   }
+                }
+            }
+        }
+    }
+}
+
+.hidden{
+    visibility: hidden;
+    top: 120%;
+}

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'poppins regular';
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins regular';
+}
+
+@font-face {
+    font-family: 'poppins bold';
+    src: url("../fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'roboto regular';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+$robotoRegular: 'roboto regular';
+$poppinsBold: 'poppins bold';
+
+.container {
+    width: 100%;
+    margin: auto;
+    >.slider{
+        width: 100%;
+        position: relative;
+        height: max-content;
+        >.slideImg{
+            position: relative;
+            width: 100%;
+        }
+        >.lArr, >.rArr{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+        >.rArr{
+            left: auto;
+            right: 0;
+        }
+        >.logo{
+            position: absolute;
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+        }
+    }
+    >nav{
+        width: 70%;
+        margin: auto;
+        transform: translateY(-50%);
+        >ul{
+            list-style: none;
+            display: flex;
+            background: #242424;
+            text-align: center;
+            border-radius: 6px;
+            >li{
+                width: 100%;
+                >a{
+                    color: #fff;
+                    text-decoration: none;
+                    line-height: 88px;
+                    display: block;
+                }
+            }
+        }
+    }
+    >.hero{
+        text-align: center;
+        width: 100%;
+        padding-bottom: 60px;
+        >h1{
+            font-size: 60px;
+            font-family: $poppinsBold;
+        }
+        >p{
+            font-family: $poppinsBold;
+            transform: translateY(-50%);
+        }
+        >img{
+            width: 24%;
+            display: block;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+        >button{
+            background: #242424;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            color: #fff;
+        }
+    }
+    >.fruit-shop{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        >div{
+            &:first-child{
+                background: #ececec;
+                padding: 30px 0;
+                >img{
+                    width: 100%;
+                    transform: translateX(60px);
+                }
+            }
+            &:last-child{
+                text-align: center;
+                padding: 0 100px;
+                >div{
+                    padding: 30px 0;
+                }
+            }
+        }
+    }
+}
